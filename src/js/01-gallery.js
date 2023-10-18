@@ -32,3 +32,8 @@ function createImagesListMarkup(images) {
   }).join("");
 };
 
+const lightbox = new SimpleLightbox('.gallery__link', {
+        captionsData: 'alt',
+        captionDelay: 250,
+      });
+
