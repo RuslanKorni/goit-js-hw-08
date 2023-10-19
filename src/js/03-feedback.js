@@ -1,11 +1,4 @@
-// Підключаємо бібліотеку lodash.throttle
-
-
-
-
-
-
-
+import throttle from 'lodash.throttle';
 
 
 
